@@ -1,1 +1,0 @@
-pyinstaller --onefile --icon="C:\Program Files\FalconGaze SecureTower\SecureTower.ico" "G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py"

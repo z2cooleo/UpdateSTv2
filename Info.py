@@ -15,18 +15,18 @@ class Info:
         self.url = Url
 
     def GetInfo(self):
-        if "6.0" in self.oldVersion:
-            listVer = Info.Request(self, self.domainUrl+self.url)
-            for item in listVer:
-                if str(item.get("number")) != str(self.oldVersion):
-                    build = self.Request(self.domainUrl + item.get("href"))
-                    changes = self.Request(self.domainUrl + build.find("changes").get("href"))
-                    print("-----------" + item.get("number"))
-                    for ch in changes:
-                        comm = self.Request(self.domainUrl + ch.get("href"))
-                        print(comm.find("comment").text)
-                else:
-                    return 1
+        #if "6.0" in self.oldVersion:
+        listVer = Info.Request(self, self.domainUrl+self.url)
+        for item in listVer:
+            if str(item.get("number")) != str(self.oldVersion):
+                build = self.Request(self.domainUrl + item.get("href"))
+                changes = self.Request(self.domainUrl + build.find("changes").get("href"))
+                print("-----------" + item.get("number"))
+                for ch in changes:
+                    comm = self.Request(self.domainUrl + ch.get("href"))
+                    print(comm.find("comment").text)
+            else:
+                return 1
     def Request(self, url):
         file = requests.get(url)
         tree = ElementTree.fromstring(file.content)

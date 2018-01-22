@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['UpdateSTv2.py'],
-             pathex=['G:\\Dev\\UpdateSTv2\\UpdateSTv2'],
+             pathex=['G:\\Dev\\Project\\UpdateSTv2\\UpdateSTv2'],
              binaries=[],
              datas=[],
              hiddenimports=[],

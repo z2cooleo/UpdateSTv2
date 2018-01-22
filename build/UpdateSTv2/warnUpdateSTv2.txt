@@ -1,16 +1,16 @@
 missing module named pyimod03_importers - imported by c:\python36\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_pkgres.py
-missing module named __builtin__ - imported by pip._vendor.distlib.compat, pip._vendor.distlib._backport.tarfile, pip._vendor.pyparsing, pkg_resources._vendor.pyparsing
-missing module named ordereddict - imported by pip._vendor.html5lib.treewalkers.etree, pip._vendor.html5lib.filters.alphabeticalattributes, pip._vendor.pyparsing, pkg_resources._vendor.pyparsing
 missing module named 'com.sun' - imported by pip._vendor.appdirs, pkg_resources._vendor.appdirs
 missing module named 'win32com.gen_py' - imported by win32com, c:\python36\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_win32comgenpy.py
 missing module named StringIO - imported by pip._vendor.requests.packages.urllib3.packages.six, urllib3.packages.six, pip._vendor.requests.compat, pip._vendor.six, pip._vendor.distlib.compat, pkg_resources._vendor.six
-missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.requirements, pkg_resources._vendor.packaging.markers
+missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.markers, pkg_resources._vendor.packaging.requirements
+missing module named __builtin__ - imported by pip._vendor.distlib.compat, pip._vendor.distlib._backport.tarfile, pip._vendor.pyparsing, pkg_resources._vendor.pyparsing
+missing module named ordereddict - imported by pip._vendor.html5lib.treewalkers.etree, pip._vendor.html5lib.filters.alphabeticalattributes, pip._vendor.pyparsing, pkg_resources._vendor.pyparsing
 missing module named __main__ - imported by pip._vendor.pkg_resources, pkg_resources
 missing module named multiprocessing.SimpleQueue - imported by multiprocessing, concurrent.futures.process
 missing module named multiprocessing.set_start_method - imported by multiprocessing, multiprocessing.spawn
 missing module named multiprocessing.get_start_method - imported by multiprocessing, multiprocessing.spawn
-missing module named multiprocessing.get_context - imported by multiprocessing, multiprocessing.pool, multiprocessing.managers, multiprocessing.sharedctypes
 missing module named multiprocessing.TimeoutError - imported by multiprocessing, multiprocessing.pool
+missing module named multiprocessing.get_context - imported by multiprocessing, multiprocessing.pool, multiprocessing.managers, multiprocessing.sharedctypes
 missing module named multiprocessing.BufferTooShort - imported by multiprocessing, multiprocessing.connection
 missing module named multiprocessing.AuthenticationError - imported by multiprocessing, multiprocessing.connection
 missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern, pkg_resources, setuptools.dist, setuptools.command.egg_info
@@ -18,36 +18,36 @@ missing module named pkg_resources.extern.appdirs - imported by pkg_resources.ex
 missing module named 'pkg_resources.extern.six.moves' - imported by pkg_resources, pkg_resources._vendor.packaging.requirements
 missing module named pkg_resources.extern.six - imported by pkg_resources.extern, pkg_resources
 missing module named 'multiprocessing.forking' - imported by c:\python36\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_multiprocessing.py
-missing module named resource - imported by posix, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-missing module named posix - imported by os, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-missing module named _posixsubprocess - imported by subprocess, multiprocessing.util, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-missing module named org - imported by pickle, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-missing module named readline - imported by cmd, code, pdb, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-excluded module named _frozen_importlib - imported by importlib, importlib.abc, pip._vendor.distlib.resources, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, pip._vendor.distlib.resources, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-missing module named _winreg - imported by platform, pip.utils.appdirs, pip._vendor.appdirs, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py, pkg_resources._vendor.appdirs
+missing module named resource - imported by posix, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named posix - imported by os, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named _posixsubprocess - imported by subprocess, multiprocessing.util, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named org - imported by pickle, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named readline - imported by cmd, code, pdb, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, pip._vendor.distlib.resources, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, pip._vendor.distlib.resources, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named _winreg - imported by platform, pip.utils.appdirs, pip._vendor.appdirs, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py, pkg_resources._vendor.appdirs
 missing module named _scproxy - imported by urllib.request
-missing module named java - imported by platform, pip._vendor.distlib.scripts, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-missing module named 'java.lang' - imported by platform, xml.sax._exceptions, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-missing module named vms_lib - imported by platform, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-missing module named termios - imported by tty, getpass, pip.utils, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named java - imported by platform, pip._vendor.distlib.scripts, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named vms_lib - imported by platform, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named termios - imported by tty, getpass, pip.utils, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
 missing module named urllib.splittag - imported by urllib, setuptools.py26compat
+missing module named urllib.ContentTooShortError - imported by urllib, pip._vendor.distlib.compat
+missing module named urllib.urlretrieve - imported by urllib, pip._vendor.distlib.compat
+missing module named urllib.splittype - imported by urllib, pip._vendor.distlib.compat
 missing module named urllib.pathname2url - imported by urllib, pip._vendor.distlib.compat
 missing module named urllib.url2pathname - imported by urllib, pip._vendor.distlib.compat
-missing module named urllib.urlretrieve - imported by urllib, pip._vendor.distlib.compat
-missing module named urllib.ContentTooShortError - imported by urllib, pip._vendor.distlib.compat
-missing module named urllib.splittype - imported by urllib, pip._vendor.distlib.compat
-missing module named urllib.unquote_plus - imported by urllib, pip._vendor.requests.compat
-missing module named urllib.unquote - imported by urllib, pip._vendor.requests.compat, pip._vendor.distlib.compat
 missing module named urllib.proxy_bypass - imported by urllib, pip._vendor.requests.compat
+missing module named urllib.unquote_plus - imported by urllib, pip._vendor.requests.compat
 missing module named urllib.getproxies - imported by urllib, pip._vendor.requests.compat
-missing module named urllib.quote - imported by urllib, pip._vendor.requests.compat, pip._vendor.distlib.compat
+missing module named urllib.unquote - imported by urllib, pip._vendor.requests.compat, pip._vendor.distlib.compat
 missing module named urllib.quote_plus - imported by urllib, pip._vendor.requests.compat
+missing module named urllib.quote - imported by urllib, pip._vendor.requests.compat, pip._vendor.distlib.compat
 missing module named urllib.urlencode - imported by urllib, pip._vendor.requests.packages.urllib3.request, pip._vendor.requests.compat
-missing module named grp - imported by shutil, tarfile, distutils.archive_util, pip._vendor.distlib._backport.tarfile, pip._vendor.distlib._backport.shutil, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, netrc, getpass, distutils.util, distutils.archive_util, pip._vendor.distlib._backport.tarfile, pip._vendor.distlib._backport.shutil, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-missing module named _dummy_threading - imported by dummy_threading, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
-missing module named 'org.python' - imported by copy, xml.sax, setuptools.sandbox, G:\Dev\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named grp - imported by shutil, tarfile, distutils.archive_util, pip._vendor.distlib._backport.tarfile, pip._vendor.distlib._backport.shutil, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, netrc, getpass, distutils.util, distutils.archive_util, pip._vendor.distlib._backport.tarfile, pip._vendor.distlib._backport.shutil, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named 'org.python' - imported by copy, xml.sax, setuptools.sandbox, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
+missing module named _dummy_threading - imported by dummy_threading, G:\Dev\Project\UpdateSTv2\UpdateSTv2\UpdateSTv2.py
 missing module named 'pip._vendor.requests.packages.urllib3.packages.six.moves' - imported by pip._vendor.requests.packages.urllib3.util.response, pip._vendor.requests.packages.urllib3.response
 missing module named httplib - imported by pip._vendor.requests.packages.urllib3.connection, pip._vendor.distlib.compat
 missing module named Queue - imported by pip._vendor.requests.packages.urllib3.connectionpool, urllib3.connectionpool, pip._vendor.distlib.compat
@@ -65,7 +65,7 @@ missing module named 'backports.ssl_match_hostname' - imported by urllib3.packag
 missing module named "'urllib3.packages.six.moves.urllib'.parse" - imported by urllib3.request, urllib3.poolmanager
 missing module named socks - imported by pip._vendor.requests.packages.urllib3.contrib.socks
 missing module named certifi - imported by pip._vendor.requests.certs, setuptools.ssl_support
-missing module named 'pip._vendor.six.moves' - imported by pip._vendor.pkg_resources, pip.utils, pip.vcs, pip.vcs.subversion, pip.index, pip.download, pip.models.index, pip.wheel, pip._vendor.html5lib._inputstream, pip._vendor.html5lib.filters.sanitizer, pip.vcs.git, pip.vcs.mercurial, pip.baseparser, pip._vendor.packaging.requirements, pip.req.req_install, pip.req.req_file, pip.commands.search
+missing module named 'pip._vendor.six.moves' - imported by pip._vendor.pkg_resources, pip.utils, pip.vcs, pip.vcs.subversion, pip.index, pip.download, pip.models.index, pip.wheel, pip._vendor.html5lib._inputstream, pip._vendor.html5lib.filters.sanitizer, pip.vcs.mercurial, pip.vcs.git, pip.baseparser, pip._vendor.packaging.requirements, pip.req.req_install, pip.req.req_file, pip.commands.search
 missing module named lxml - imported by pip._vendor.html5lib.treebuilders.etree_lxml, pip._vendor.html5lib.treewalkers.etree_lxml
 missing module named 'genshi.core' - imported by pip._vendor.html5lib.treewalkers.genshi
 missing module named genshi - imported by pip._vendor.html5lib.treewalkers.genshi
